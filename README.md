@@ -1,1 +1,3 @@
 # -PalindromeServer
+Create a Java class PalindromeServer. The PalindromServer takes a port number as a program argument and creates a ServerSocket for that port that waits for connection requests. The connecting client will send a single text string to the server, and the server will return a text string that is a palindrome of the input text and disconnect from the client. For example, given the input "123456", the PalindromeServer will returns "123456654321". The server continues to run until it is terminated, so any number of clients can connect to it.
+test: use the telnet program to connect to the PalindromeServer and give it a line of text.The PalindromeServerreturns the palindrome and disconects
