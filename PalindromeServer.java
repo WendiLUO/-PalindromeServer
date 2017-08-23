@@ -1,5 +1,3 @@
-package edu.northeastern.cs_5004;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
